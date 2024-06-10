@@ -23,7 +23,7 @@ public class Produto {
 	private String nome;
 	
 	@NotBlank
-	private String descricao;
+	private String marca;
 	
 	private int quantidade;
 	
@@ -51,12 +51,12 @@ public class Produto {
 		this.nome = nome;
 	}
 
-	public String getDescricao() {
-		return descricao;
+	public String getMarca() {
+		return marca;
 	}
 
-	public void setDescricao(String descricao) {
-		this.descricao = descricao;
+	public void setMarca(String marca) {
+		this.marca = marca;
 	}
 
 	public int getQuantidade() {

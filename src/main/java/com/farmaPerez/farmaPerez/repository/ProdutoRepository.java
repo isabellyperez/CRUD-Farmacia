@@ -10,5 +10,5 @@ import com.farmaPerez.farmaPerez.model.Produto;
 
 public interface ProdutoRepository extends JpaRepository<Produto, Long> {
 
-	public List <Produto> findAllByDescricaoContainingIgnoreCase(@Param("descricao") String descricao);
+	public List <Produto> findAllByMarcaContainingIgnoreCase(@Param("marca") String marca);
 }
